@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- logo -->
+    <link rel="shortcut icon" href="./images/logo.png" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Bankist Nestify</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav_container">
+        <p>Login to get start</p>
+        <img src="./images/logo.png" alt="logo image" width="40" height="40" />
+        <form action="">
+          <input type="text" class="tex_box user" placeholder="User" />
+          <input type="password" class="tex_box pin" placeholder="PIN" />
+          <button class="login_arr btn">&rarr;</button>
+        </form>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main_container">
+        <class class="grid_2_cols">
+          <div class="left_grid">            
+              <div class="row">
+                <div class="text_box deposit">1 deposit</div>
+                <div class="date">10/3/2023</div>
+                <div class="amount">2000 €</div>
+              </div>
+              <div class="row">
+                <div class="text_box widthdrawl">1 widthdrawl</div>
+                <div class="date">10/3/2023</div>
+                <div class="amount">2000 €</div>
+              </div>
+                           
+          </div> 
+
+          <div class="right_grid">
+            <!-- Transfer Money -->
+            <div class="right_box ">
+              <p>Transfer Money</p>
+              <form class="input_box">
+                <input type="text" class="tex_box text_input_box transfer_to_input" >
+                <input type="password" class="tex_box text_input_box transfer_amt_input" >
+                <button class="btn transfer_btn">&rarr;</button>
+                <span class="transfer_center">Tansfer To</span>
+                <span class="transfer_center">Amount</span>
+              </form>
+            </div>
+            <!-- Request loan -->
+            <div class="right_box loan_box">
+              <p>Request Loan</p>
+              <form class="input_box loan_input_box">                
+                <input type="password" class="tex_box text_input_box loan_amt_input">
+                <button class="btn transfer_btn">&rarr;</button>
+               
+                <span class="transfer_center">Amount</span>
+              </form>
+            </div>
+            <!-- Close Account -->
+            <div class="right_box close_box">
+              <p>Close Account</p>
+              <form class="input_box">
+                <input type="text" class="tex_box text_input_box user_input">
+                <input type="password" class="tex_box text_input_box pin_input">
+                <button class="btn transfer_btn">&rarr;</button>
+                <span class="transfer_center">Confirm User</span>
+                <span class="transfer_center">Confirm PIN</span>
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </main>
+    <!-- script -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
